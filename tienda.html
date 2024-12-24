@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+</head>
+<body>
+    <header>
+        <div id="titulo">Tienda - 2024 - Talento Tech</div>
+        <br>
+        <button id="btnPagar" onclick="pagar()">Pagar</button>
+        <button id="btnLimpiar" onclick="limpiarCarrito()">Vaciar Carrito</button>
+    </header>
+    <main>
+        <section>
+            <div class="tarjeta">
+                <h3>Remera</h3>
+                <h2>$ 2000.-</h2>
+                <button id="btnComprar" onclick="agregarProducto('Remera', 2000)">Comprar</button>
+            </div>
+        </section>
+        <section>
+            <div class="tarjeta">
+                <h3>Camisa</h3>
+                <h2>$ 3000.-</h2>
+                <button id="btnComprar" onclick="agregarProducto('Camisa', 3000)">Comprar</button>
+            </div>
+        </section>
+        <section>
+            <div class="tarjeta">
+                <h3>Bufanda</h3>
+                <h2>$ 1500.-</h2>
+                <button id="btnComprar" onclick="agregarProducto('Bufanda', 1500)">Comprar</button>
+            </div>
+        </section>
+    </main>
+    <div id="carrito"></div>
+
+    <footer></footer>
+
+    <script src="tienda.js"> </script> 
+</body>
+</html>

@@ -27,6 +27,18 @@ body {
   padding-top: 7%;
 }
 
+.navbar {
+  background-color: rgb(4, 44, 44) !important; /* Color de fondo */
+  color: #ffffff !important;           /* Color del texto */
+}
+
+.navbar a {
+  color: rgb(255, 94, 20) !important;           /* Color de los enlaces */
+}
+
+.navbar a:hover {
+  color: #ffffff !important;           /* Color al pasar el mouse */
+}
 /* ==== Header comienza acá ==== */
 
 

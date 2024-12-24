@@ -43,43 +43,51 @@
       <div class="product-box">
         <img src="img/Hoodie1.webp" alt="" class="product-img" title="Hoodie Carbury"/>
         <h2 class="product-title">Hoodie Carbury</h2>
-        <span class="price">$23.000</span>
+        <div class="BtnHoodie">
+            <button onclick="agregarProducto('Carbury', 23000)">$23.000</button>
+           </div>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
     <!-- Box 2 -->
     <div class="product-box">
         <img src="img/Hoodie2.webp" alt="" class="product-img" title="Hoodie Dunkin Donuts"/>
         <h2 class="product-title">Hoodie Dunkin Donuts</h2>
-        <span class="price">$23.000</span>
+        <div class="BtnHoodie">
+            <button onclick="agregarProducto('Dunkin Donuts', 23000)">$23.000</button>
+           </div>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
     <!-- Box 3 -->
     <div class="product-box">
         <img src="img/Hoodie3.webp" alt="" class="product-img" title="Hoodie Don satur"/>
         <h2 class="product-title">Hoodie Don Satur</h2>
-        <span class="price">$23.000</span>
+        <div class="BtnHoodie">
+            <button onclick="agregarProducto('Don Satur', 23000)">$23.000</button>
+        </div>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
     <!-- Box 4 -->
     <div class="product-box">
         <img src="img/Hoodie4.webp" alt="" class="product-img" title="Hoodie Shishi"/>
         <h2 class="product-title">Hoodie Shishi</h2>
-        <span class="price">$23.000</span>
+        <div class="BtnHoodie">
+            <button onclick="agregarProducto('Shishi', 23000)">$23.000</button>
+           </div>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
     <!-- Box 5 -->
     <div class="product-box">
         <img src="img/Hoodie5.webp" alt="" class="product-img"  title="Hoodie Oni"/>
         <h2 class="product-title">Hoodie Oni</h2>
-        <span class="price">$23.000</span>
+        <div class="BtnHoodie">
+            <button onclick="agregarProducto('Oni', 23000)">$23.000</button>
+           </div>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
     <!-- Box 6 -->
     <div class="product-box">
-        <img src="img/Hoodie6.webp" alt="" class="product-img" title="Hoodie Samurai"/>
-        <h2 class="product-title">Hoodie Samurai</h2>
-        <span class="price">$23.000</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
+        <div id="carrito">carrito</div>
+        <button id="btnPagar" onclick="pagar()">Pagar</button>
     </div>
 </div>
     
@@ -99,6 +107,8 @@
     </div>
 </div>
 </footer>
+
+<script src="tienda.js"></script>
 
 </body>
 
